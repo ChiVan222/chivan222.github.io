@@ -13,7 +13,7 @@
     <ul>
         <li><a href="index.html">Trang chủ</a></li>
         <li><a href="gallery.html">Thư viện</a></li>
-       
+        <link rel="stylesheet" href="lightbox.css">
     </ul>
    </nav>
     <section> 
@@ -35,7 +35,10 @@
         </ul>
 
         <div class="gallery">
-            <div class="itemBox"data-item="1"> <img src="images/1.png"><p class="image-caption"><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3709578/">Transmembrane aminopeptidase Q</a></p>  </div>
+            <a href="" data-lightbox="models" data-title =" Caption1">
+                <div class="itemBox"data-item="1"> <img src="images/1.png"><p class="image-caption"><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3709578/">Transmembrane aminopeptidase Q</a></p>  </div>
+            </a>
+            
             <div class="itemBox"data-item="1"><img src="images/2.png"><p class="image-caption"><a href="">Dị tật thừa ngón</a></p></div>
             <div class="itemBox"data-item="2"><img src="images/3.jpg"><p class="image-caption"><a href="https://www.the-sun.com/news/4494577/worlds-strongest-dog-wendy-twice-as-big/">Gen myostatin bị khiếm khuyết</a></p></div>
             <div class="itemBox"data-item="2"><img src="images/4.jpg"><p class="image-caption"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0190962204024880">Bệnh loạn dưỡng trichothiodystrophy</a></p></div>
@@ -120,7 +123,9 @@
                 }
             }
         });
+
 </script>
+<script src="lightbox-plus-jquery.js"></script>
 </body>
 <footer>
     TỔ 4 12CT3
