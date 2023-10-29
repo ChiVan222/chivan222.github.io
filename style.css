@@ -140,3 +140,8 @@ footer{
     font-family: Arial;
     letter-spacing: 1px;
 }
+.gallery .itemBox.zoomed {
+    cursor: zoom-out;
+    transform: scale(1.5);
+    transition: transform 0.3s;
+}
